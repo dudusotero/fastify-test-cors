@@ -5,6 +5,7 @@
   "author": "Eduardo Sotero <eduardo@redpanda.events>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
     "fastify": "^2.14.1"
   },
   "scripts": {
