@@ -1,0 +1,13 @@
+{
+  "name": "fastify-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eduardo Sotero <eduardo@redpanda.events>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^2.14.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
