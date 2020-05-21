@@ -1,7 +1,11 @@
+const cors = require("cors");
+
 // Require the framework and instantiate it
 const fastify = require("fastify")({
   logger: true,
 });
+
+fastify.use(cors());
 
 // Declare a route
 fastify.get("/", function (request, reply) {
